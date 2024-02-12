@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+*{
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h4{
+  font-weight: 600;
+  font-size: 18px;
+  
+  border-bottom: 2px solid rgb(222, 215, 215);
+ }
+ .img-code{
+  padding:15px;
+  box-shadow: 0 0 10px rgba(199, 171, 171, 0.5);
+ }
+ .data-generator{
+  display:block;
+  margin-bottom: 7px;
+  color: #3498db;
+  font-size: 16px;;
+ }
+ input[type="text"]{
+  padding:12px;
+  width:100%;
+  margin-bottom: 10px;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+}
+button{
+  border-radius: 4px;
+  padding: 8px 15px;
+  color: #ffff;
+  border-style: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.generate-button{
+  background-color: #3498db;
+  }
+.generate-button:disabled{
+  background-color: aliceblue;
+  cursor: not-allowed;
+
+}
+.download-button{
+  background-color: green;
+  margin-left: 10px;
+}
+.download-button:hover{
+ background-color: darkgreen;
+}
+p{
+  font-size: 14px;
+}
+a{
+  text-decoration: none;
+}
